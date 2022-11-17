@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+#qrcode{
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 975px;
+    flex-direction: column;
+}
+.qr-code{
+    background: hsl(0, 0%, 100%);
+    width: 310px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.qr-code-img img{
+    width: 280px;
+    border-radius: 10px;
+}
+.qr-code-txt{
+    width: 280px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px;
+}
+.qr-code-txt h3{
+    font-size: 22px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+.qr-code-txt p{
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
